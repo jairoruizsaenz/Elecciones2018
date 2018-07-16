@@ -5,14 +5,11 @@ Utilizando los datos de los resultados de las elecciones de congreso de Colombia
 
 | Gráfica 	| Descripción   	|
 |------	|--------------------------------------------------------------------------------	|
-| Gráfica 1 	| Presenta el número total de votos por partido político y funciona como filtro para las otras gráficas   	|
-| 2011 	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-a-Residencias/e2gx-9fah   |
-| 2012 	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-A-Residencias/uwmp-kmca 	|
-| 2013 	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-Residencias/ecyd-vekr     |
-| 2014 	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-Residencias/suam-y7zi     |
-| 2015 	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-Residencias/w5vm-upnq     |
-| 2016 	| https://www.datos.gov.co/Seguridad-y-Defensa/Hurto-a-residencias-2016/hb8w-z45f   	|
-| 2017 	| https://www.datos.gov.co/Seguridad-y-Defensa/Hurto-a-residencias-2017/wucx-9dq4   	|
+| Gráfica 1	| Presenta el número total de votos por partido político y funciona como filtro para las otras gráficas.|
+| Gráfica 2	| Presenta el top 15 de candidatos con mayor votación obtenida.|
+| Gráfica 3	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-A-Residencias/uwmp-kmca 	|
+| Gráfica 4	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-Residencias/ecyd-vekr     |
+
 
 - Gráfica 1: Presenta el número total de votos por partido político y funciona como filtro para las otras gráficas
 - Gráfica 2: Presenta el top 15 de candidatos con mayor votación obtenida
