@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Resultados Camara 2018</title>
+
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+                
+        <meta name="viewport" content="width=1000, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        
+        <script src="https://cdn.jsdelivr.net/npm/vega@4.0.0-rc.3/build/vega.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@2.6.0/build/vega-lite.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@3.16.0/build/vega-embed.js"></script>        
+    </head>
+
+    <body>        
+        <div class="container">
+          
+            <h1 style="text-align: center;">Resultados Elecciones Congreso - Colombia 2018</h1>
+            <h2 style="text-align: center;">Análisis de resultados elecciones camara de representantes </h2>
+
+            <p class="main-text">
+                Utilizando los datos de los resultados de las elecciones de congreso de Colombia de 2018, proporcionados por Javier Moreno en su página de github <a href="https://github.com/infrahumano/elecciones2018" target="_blank">(Visitar Página)</a>, procedí a implementar 4 Gráficas que permiten visualizar el comportamiento de los resultados de las elecciones para la camara de representantes del año 2018.
+                
+                <p>Para interpretar las gráficas y obtener una mejor comprensión de los datos se tienen 2 principales interacciones, la primera consiste en realizar un filtro en función del Partido Político, para activar el filtro se debe hacer click en las barras horizontales de la Gráfica 1 de cada partido político, o en caso de querer filtrar varios partidos, se debe mantener presionada la techla shift entre cada selección, para desactivar el filtro se debe hacer click nuevamente en el partido político activo.</p>
+
+                <p>La segunda interacción consiste en un tooltip que proporciona información de acuerdo a la gráfica con la que se interactue y los diferentes campos de información, como son Departamento, Partido Político, Número de votos y otras</p>
+                    
+                <p>Las gráficas implementadas presentan dos modísmos, el primero consiste en la utilización de barras horizontales para la representación de número de votos, y el segundo es la utilización del color para identificar los diferentes partidos políticos</p>
+            
+            <p><strong>Gráfica 1: </strong> Presenta el número total de votos por partido político y funciona como filtro para las otras gráficas</p>
+            <p><strong>Gráfica 2: </strong> Presenta el top 15 de candidatos con mayor votación obtenida </p>
+            <p><strong>Gráfica 3: </strong> Presenta el número de votos obtenidos por departamento y partido político, en el tooltip se presenta el porcentaje de votos obtenidos por departamento con relación a la votación total del pais (para el partido político correspondiente), Por ejemplo: el 49,1% del total de votos obtenidos por el partido "Alianza Verde", fueron sufragados en la ciudad de Bogotá</p>
+            <p><strong>Gráfica 4: </strong> Presenta el número de votos obtenidos por departamento y partido político, en el tooltip se presenta el porcentaje de votos obtenidos por partido político con relación a la votación total del departamento, Por ejemplo: la votación del partido "Alianza Verde" en la ciudad de Bogotá (433,647), representa el 15,8% del total de votos en Bogotá. Ubicando al partido como el segundo con mayor votación en la ciudad, lo supera el partido "Centro Democrático" que obtuvo el 17,2% de votos</p>
+            <p></p>
+            
+            <div id="vis"></div>                    
+            <script src="resources/js/vlSpec.js"></script>
+        
+            <hr noshade size="1">
+            <br>
+
+            <footer>
+                <p><strong>Resultados Camara 2018</strong> fue implementado por
+                    <a href="https://github.com/jairoruizsaenz" target="_blank">Jairo Ruiz Saenz</a>
+                    
+                    <p><a href="https://github.com/jairoruizsaenz/dashboard-hurto-celulares" target="_blank">Ver Repositorio</a> -
+                       Fecha de actualización: 15/07/2018 </p>
+            </footer>
+
+            <a target="_blank" href="https://github.com/jairoruizsaenz/dashboard-hurto-celulares">
+            <img style="position: absolute; top: 0; right: 0; border: 0;" src="resources/img/forkme_right_darkblue.png" alt="Fork me on GitHub"></a>
+
+        </div>    
+    </body>
+</html>
