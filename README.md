@@ -4,7 +4,7 @@
 Utilizando los datos de los resultados de las elecciones de congreso de Colombia de 2018, proporcionados por Javier Moreno en su página de github ([Visitar Página](https://github.com/infrahumano/elecciones2018)), procedí a implementar 4 Gráficas que permiten visualizar el comportamiento de los resultados de las elecciones para la camara de representantes del año 2018. Las gráficas cuentan con tooltip para brindar mayor información y una función de filtrado.
 
 | Gráfica 	| Descripción   	|
-|------	|--------------------------------------------------------------------------------	|
+|----------	|--------------------------------------------------------------------------------	|
 | Gráfica 1	| Presenta el número total de votos por partido político y funciona como filtro para las otras gráficas.|
 | Gráfica 2	| Presenta el top 15 de candidatos con mayor votación obtenida.|
 | Gráfica 3	| Presenta el número de votos obtenidos por departamento y partido político, en el tooltip se presenta el porcentaje de votos obtenidos por departamento con relación a la votación total del pais (para el partido político correspondiente), Por ejemplo: el 49,1% del total de votos obtenidos por el partido "Alianza Verde", fueron sufragados en la ciudad de Bogotá.|
