@@ -3,11 +3,9 @@
 
 Utilizando los datos de los resultados de las elecciones de congreso de Colombia de 2018, proporcionados por Javier Moreno en su página de github ([Visitar Página](https://github.com/infrahumano/elecciones2018)), procedí a implementar 4 Gráficas que permiten visualizar el comportamiento de los resultados de las elecciones para la camara de representantes del año 2018. Las gráficas cuentan con tooltip para brindar mayor información y una función de filtrado.
 
-#### Gráficas
-
 | Gráfica 	| Descripción   	|
 |------	|--------------------------------------------------------------------------------	|
-| 2010 	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-Residencias/xau2-crkr   	|
+| Gráfica 1 	| Presenta el número total de votos por partido político y funciona como filtro para las otras gráficas   	|
 | 2011 	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-a-Residencias/e2gx-9fah   |
 | 2012 	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-A-Residencias/uwmp-kmca 	|
 | 2013 	| https://www.datos.gov.co/Seguridad-y-Defensa/Delito-Hurto-Residencias/ecyd-vekr     |
